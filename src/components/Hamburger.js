@@ -4,19 +4,12 @@ import { useMenu } from '../utils/menuState';
 
 const HamburgerStyles = styled.div`
   .wrapper {
-    /* position: absolute; */
-    /* top: 0; */
-    /* right: 0;   */
     height: 60px;
     width: 65px;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 1rem;
-    cursor: pointer;
-    border-bottom-left-radius: 5px;
-    border-top-left-radius: 5px;
-    /* z-index: 2; */
+    padding: 1rem 1.5rem;
   }
 
   .hamburger {
