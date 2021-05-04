@@ -13,10 +13,10 @@ const ContactStyles = styled.div`
 
 const FormStyles = styled.form`
   box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.05);
-  background: rgba(0, 0, 0, 0.02);
+  background: rgba(0, 0, 0, 0.03);
   border: 5px solid white;
-  font-size: 3rem;
-  height: 100%;
+  font-size: 2rem;
+  /* height: 100%; */
   width: 100%;
   padding: 2rem;
 
@@ -41,12 +41,13 @@ const FormStyles = styled.form`
   button {
     /* align-self: center; */
     width: auto;
-    background: var(--green);
+    background: var(--primary);
     color: white;
     border: 0;
     font-size: 2rem;
     font-weight: 600;
-    padding: 0.5rem 1.2rem;
+    padding: 1rem 1.5rem;
+    margin: 2rem 0;
   }
 `;
 
@@ -68,6 +69,8 @@ export default function ContactPage() {
           // value={values.email}
           // onChange={updateValues}
         />
+        <label htmlFor="message">How can I help?</label>
+        <textarea name="message" id="message" cols="30" rows="10"></textarea>
         <button type="submit">Submit Form!</button>
       </FormStyles>
     </ContactStyles>
