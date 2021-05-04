@@ -32,7 +32,9 @@ export default function Footer() {
             Email: tj@tjiscool.com
           </a>
         </li>
-        <li>Call: (207) 555-5555 </li>
+        <li>
+          <a href="tel:2078078527">Call: (207) 555-5555</a>{' '}
+        </li>
         <li></li>
       </ul>
       <p>&copy; Thomas Hill Garden Design {new Date().getFullYear()}</p>
