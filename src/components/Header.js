@@ -1,3 +1,4 @@
+import { Link } from 'gatsby';
 import React from 'react';
 import styled from 'styled-components';
 import Hamburger from './Hamburger';
@@ -14,12 +15,17 @@ const HeaderStyles = styled.div`
   h1 {
     color: var(--primary);
   }
+  .link {
+    text-decoration: none;
+  }
 `;
 
 export default function Header() {
   return (
     <HeaderStyles>
-      <h1>Thomas Hill Logo</h1>
+      <Link className="link" to="/">
+        <h1>Thomas Hill Logo</h1>
+      </Link>
       <Nav />
       <Hamburger />
     </HeaderStyles>

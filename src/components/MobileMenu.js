@@ -14,7 +14,6 @@ const MobileNav = styled.div`
   width: 60%;
   background: white;
   background: var(--background);
-  /* padding: 0 3rem; */
   margin: auto 0;
   z-index: 1;
   box-shadow: 1px 1px 8px 0 var(--primary);
@@ -28,14 +27,13 @@ const MobileNav = styled.div`
   ul {
     display: flex;
     flex-direction: column;
-    /* align-items: flex-end; */
   }
   .link {
     padding: 1.5rem 1rem;
     align-content: flex-start;
     color: var(--primary);
-    /* color: black; */
     font-size: 3rem;
+    font-weight: 600;
     text-decoration: none;
     border-bottom: 2px solid var(--primary);
     transition: all 0.8s;
@@ -56,8 +54,6 @@ const MobileNav = styled.div`
     position: absolute;
     top: 3rem;
     right: 3rem;
-    /* width: 6rem; */
-    /* height: 6rem; */
   }
   @media (max-width: 600px) {
     width: 100vw;
@@ -69,17 +65,17 @@ export default function MobileMenu() {
   return (
     <MobileNav open={menuOpen}>
       <button onClick={closeMenu}>&times;</button>
-      <ul onClick={closeMenu}>
-        <Link open={menuOpen} className="link" to="/work">
+      <ul>
+        <Link onClick={closeMenu} className="link" to="/work">
           Work
         </Link>
-        <Link className="link" to="/contact">
+        <Link onClick={closeMenu} className="link" to="/contact">
           Contact
         </Link>
-        <Link className="link" to="/">
+        <Link onClick={closeMenu} className="link" to="/">
           About
         </Link>
-        <Link className="link" to="/">
+        <Link onClick={closeMenu} className="link" to="/">
           Services
         </Link>
       </ul>
