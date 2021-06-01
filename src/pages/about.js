@@ -3,14 +3,17 @@ import styled from 'styled-components';
 
 const AboutStyles = styled.div`
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   color: var(--primary);
+  padding: 0 2rem;
+  padding-top: 30%;
 
   @media (max-width: 800px) {
-    text-align: center;
+    /* text-align: center; */
   }
 `;
 

@@ -5,8 +5,7 @@ import Hamburger from './Hamburger';
 import Nav from './Nav';
 
 const HeaderStyles = styled.div`
-  padding: 1rem 0;
-  padding-left: 1rem;
+  padding: 1rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
