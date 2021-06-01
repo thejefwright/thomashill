@@ -58,19 +58,13 @@ export default function ContactPage() {
   return (
     <ContactStyles>
       <h1>Fill out the form to contact me.</h1>
-      <FormStyles data-netlify="true" name="contact">
+      <FormStyles method="POST" data-netlify="true" name="contact">
         <label htmlFor="name">Name: </label>
         <input type="text" name="name" id="name" />
         <label htmlFor="email">Email: </label>
-        <input
-          type="email"
-          name="email"
-          id="email"
-          // value={values.email}
-          // onChange={updateValues}
-        />
+        <input type="email" name="email" id="email" />
         <label htmlFor="message">How can I help?</label>
-        <textarea name="message" id="message" rows="15"></textarea>
+        <textarea name="message" id="message" rows="10"></textarea>
         <button type="submit">Send!</button>
       </FormStyles>
     </ContactStyles>

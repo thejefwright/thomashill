@@ -29,7 +29,7 @@ const MobileNav = styled.div`
     flex-direction: column;
   }
   .link {
-    padding: 1.5rem 1rem;
+    padding-top: 2rem;
     align-content: flex-start;
     color: var(--primary);
     font-size: 3rem;
