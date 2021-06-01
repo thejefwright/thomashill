@@ -58,7 +58,7 @@ export default function ContactPage() {
   return (
     <ContactStyles>
       <h1>Fill out the form to contact me.</h1>
-      <FormStyles method="POST" data-netlify="true" name="contact">
+      <FormStyles name="contact" method="POST" data-netlify="true">
         <label htmlFor="name">Name: </label>
         <input type="text" name="name" id="name" />
         <label htmlFor="email">Email: </label>
