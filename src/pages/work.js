@@ -8,7 +8,7 @@ const WorkStyles = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  padding: 0 1rem;
+  padding: 0 3rem;
   padding-top: 30%;
   color: var(--primary);
 

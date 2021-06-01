@@ -9,7 +9,7 @@ const AboutStyles = styled.div`
   align-items: center;
   justify-content: flex-start;
   color: var(--primary);
-  padding: 0 2rem;
+  padding: 0 3rem;
   padding-top: 30%;
 
   @media (max-width: 800px) {

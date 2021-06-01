@@ -7,7 +7,7 @@ import styled from 'styled-components';
 
 const InnerStyles = styled.div`
   margin: 0 auto;
-  width: 80%;
+  width: 100%;
 `;
 
 export default function Layout({ children }) {

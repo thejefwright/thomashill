@@ -7,8 +7,10 @@ const ServicesStyles = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  padding: 1rem;
+  justify-content: flex-start;
+  padding: 0 3rem;
+  padding-top: 30%;
+
   color: var(--primary);
   h1 {
     border-bottom: 2px solid var(--second);
@@ -21,8 +23,6 @@ const ServicesStyles = styled.div`
   li {
     list-style: circle;
     padding: 1rem 0;
-  }
-  @media (max-width: 800px) {
   }
 `;
 
