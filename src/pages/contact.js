@@ -12,24 +12,25 @@ const ContactStyles = styled.div`
 `;
 
 const FormStyles = styled.form`
-  box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.05);
-  background: rgba(0, 0, 0, 0.03);
-  border: 5px solid white;
   font-size: 2rem;
-  /* height: 100%; */
   width: 100%;
   padding: 2rem;
 
   input {
     width: 100%;
     height: 4rem;
+    background: rgba(0, 0, 0, 0.03);
     padding: 0.5rem;
     font-size: 1.75rem;
     border: 1px solid black;
-    &:focus {
+    /* &:focus {
       outline: 0;
       border-color: var(--green);
-    }
+    } */
+  }
+  textarea {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.03);
   }
 
   label {
@@ -40,25 +41,24 @@ const FormStyles = styled.form`
 
   button {
     /* align-self: center; */
+    display: block;
     width: auto;
     background: var(--primary);
     color: white;
     border: 0;
     font-size: 2rem;
     font-weight: 600;
-    padding: 1rem 1.5rem;
-    margin: 2rem 0;
+    border-radius: 25px;
+    padding: 1rem 2rem;
+    margin: 2rem auto;
   }
 `;
 
 export default function ContactPage() {
   return (
     <ContactStyles>
-      <h1>
-        This is the contact page.
-        <br /> I'm working on it.
-      </h1>
-      <FormStyles>
+      <h1>Fill out the form to contact me.</h1>
+      <FormStyles data-netlify="true" name="contact">
         <label htmlFor="name">Name: </label>
         <input type="text" name="name" id="name" />
         <label htmlFor="email">Email: </label>
@@ -70,8 +70,8 @@ export default function ContactPage() {
           // onChange={updateValues}
         />
         <label htmlFor="message">How can I help?</label>
-        <textarea name="message" id="message" cols="30" rows="10"></textarea>
-        <button type="submit">Submit Form!</button>
+        <textarea name="message" id="message" rows="15"></textarea>
+        <button type="submit">Send!</button>
       </FormStyles>
     </ContactStyles>
   );
