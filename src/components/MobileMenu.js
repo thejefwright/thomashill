@@ -52,8 +52,8 @@ const MobileNav = styled.div`
     color: var(--primary);
     font-size: 6rem;
     position: absolute;
-    top: 3rem;
-    right: 3rem;
+    top: 0rem;
+    right: 2.5rem;
   }
   @media (max-width: 600px) {
     width: 100vw;
