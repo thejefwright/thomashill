@@ -26,14 +26,14 @@ export default function Nav() {
       <Link className="link" to="/work">
         Work
       </Link>
+      <Link className="link" to="/services">
+        Services
+      </Link>
       <Link className="link" to="/contact">
         Contact
       </Link>
-      <Link className="link" to="/">
+      <Link className="link" to="/about">
         About
-      </Link>
-      <Link className="link" to="/">
-        Services
       </Link>
     </NavStyles>
   );

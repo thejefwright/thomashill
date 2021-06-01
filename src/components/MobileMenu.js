@@ -69,14 +69,14 @@ export default function MobileMenu() {
         <Link onClick={closeMenu} className="link" to="/work">
           Work
         </Link>
+        <Link onClick={closeMenu} className="link" to="/services">
+          Services
+        </Link>
         <Link onClick={closeMenu} className="link" to="/contact">
           Contact
         </Link>
-        <Link onClick={closeMenu} className="link" to="/">
+        <Link onClick={closeMenu} className="link" to="/about">
           About
-        </Link>
-        <Link onClick={closeMenu} className="link" to="/">
-          Services
         </Link>
       </ul>
     </MobileNav>
