@@ -62,7 +62,7 @@ export default function ContactPage() {
         name="contact"
         method="POST"
         data-netlify="true"
-        action="/pages/about"
+        action="/thankYou"
       >
         <input type="hidden" name="form-name" value="contact" />
         <label htmlFor="name">Name: </label>
