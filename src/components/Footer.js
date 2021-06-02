@@ -6,6 +6,7 @@ const FooterStyles = styled.div`
   margin-bottom: 1rem;
   border-top: 1px solid var(--primary);
   ul {
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
     list-style: none;
@@ -35,7 +36,6 @@ export default function Footer() {
         <li>
           <a href="tel:2078078527">Call: (207) 555-5555</a>{' '}
         </li>
-        <li></li>
       </ul>
       <p>&copy; Thomas Hill Garden Design {new Date().getFullYear()}</p>
     </FooterStyles>

@@ -13,7 +13,7 @@ const NavStyles = styled.ul`
     padding: 0 2rem;
   }
 
-  @media (max-width: 800px) {
+  @media (max-width: 799px) {
     .link {
       display: none;
     }

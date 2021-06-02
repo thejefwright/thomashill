@@ -6,6 +6,7 @@ const ContactStyles = styled.div`
   height: 100vh;
   text-align: center;
   margin: auto;
+  color: var(--primary);
   h1 {
     margin: 2rem 0;
   }
