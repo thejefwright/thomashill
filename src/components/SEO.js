@@ -16,7 +16,7 @@ export default function SEO({ title, description, image, instagram }) {
     }
   `);
   const seo = {
-    image: `${siteUrl}${site.siteMetadata.image}`,
+    image: `${site.siteMeatdata.siteUrl}${site.siteMetadata.image}`,
   };
   console.log({ site });
   return (
