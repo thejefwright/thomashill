@@ -8,6 +8,7 @@ export default function SEO({ title, description, image, instagram }) {
       site {
         siteMetadata {
           title
+          siteUrl
           description
           instagram
           image
