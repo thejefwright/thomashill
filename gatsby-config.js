@@ -3,7 +3,7 @@ module.exports = {
     title: 'ThomasHillGardening',
     siteUrl: 'https://thomashillgardendesign.com',
     instagram: '@gardenguy04107',
-    image: '/images/house2.jpg',
+    image: 'src/images/house2.jpg',
     description: 'The best garden deisgn in Maine',
   },
   plugins: [
