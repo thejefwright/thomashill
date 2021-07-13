@@ -49,7 +49,7 @@ const HomeStyles = styled.div`
 export default function Home() {
   return (
     <>
-      <SEO />
+      <SEO image={house2} />
       <HomeStyles>
         <div className="heading">
           <h1>Thomas&nbsp;Hill</h1>

@@ -16,18 +16,15 @@ export default function SEO({ title, description, image, instagram }) {
       }
     }
   `);
-  const seo = {
-    image: `${site.siteMetadata.siteUrl}${site.siteMetadata.image}`,
-  };
-  console.log({ site });
+
   return (
     <Helmet>
       <html lang="en" />
       <title>{site.siteMetadata.title}</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta name="description" content={site.siteMetadata.description} />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
-      <meta property="og:image" content={seo.image} />
+      <meta property="og:image" content={image} />
     </Helmet>
   );
 }
