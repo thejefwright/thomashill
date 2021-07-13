@@ -15,6 +15,10 @@ export default function SEO({ title, description, image, instagram }) {
       }
     }
   `);
+  const seo = {
+    image: `${siteUrl}${site.siteMetadata.image}`,
+  };
+  console.log({ site });
   return (
     <Helmet>
       <html lang="en" />
@@ -22,7 +26,7 @@ export default function SEO({ title, description, image, instagram }) {
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta name="description" content={site.siteMetadata.description} />
       <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
-      <meta property="og:image" content={site.siteMetadata.image} />
+      <meta property="og:image" content={seo.image} />
     </Helmet>
   );
 }

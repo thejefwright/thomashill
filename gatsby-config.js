@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Thomas Hill Gardening',
+    title: 'Thomas Hill Garden Design',
     siteUrl: 'https://thomashillgardendesign.com',
     instagram: '@gardenguy04107',
     image: '/images/house2.jpg',
