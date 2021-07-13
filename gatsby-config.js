@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: 'ThomasHillGardening',
+    title: 'Thomas Hill Gardening',
     siteUrl: 'https://thomashillgardendesign.com',
     instagram: '@gardenguy04107',
-    image: './src/images/house2.jpg',
+    image: '/images/house2.jpg',
     description: 'The best garden deisgn in Maine',
   },
   plugins: [
