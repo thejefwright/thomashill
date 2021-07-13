@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import SEO from '../components/SEO';
 import house2 from '../images/house2.jpg';
 
 const HomeStyles = styled.div`
@@ -47,11 +48,14 @@ const HomeStyles = styled.div`
 
 export default function Home() {
   return (
-    <HomeStyles>
-      <div className="heading">
-        <h1>Thomas&nbsp;Hill</h1>
-        <h2>Garden&nbsp;Design</h2>
-      </div>
-    </HomeStyles>
+    <>
+      <SEO />
+      <HomeStyles>
+        <div className="heading">
+          <h1>Thomas&nbsp;Hill</h1>
+          <h2>Garden&nbsp;Design</h2>
+        </div>
+      </HomeStyles>
+    </>
   );
 }
