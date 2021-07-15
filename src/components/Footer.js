@@ -30,11 +30,11 @@ export default function Footer() {
             href="mailto: jef@jef.pizza?subject=Sick website, bro!"
             target="_blank"
           >
-            Email: tj@tjiscool.com
+            Email: tjhinmaine@gmail.com
           </a>
         </li>
         <li>
-          <a href="tel:2078078527">Call: (207) 555-5555</a>{' '}
+          <a href="tel:2078078527">Call: (207) 210-8654</a>{' '}
         </li>
       </ul>
       <p>&copy; Thomas Hill Garden Design {new Date().getFullYear()}</p>
