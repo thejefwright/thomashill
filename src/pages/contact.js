@@ -24,10 +24,6 @@ const FormStyles = styled.form`
     padding: 0.5rem;
     font-size: 1.75rem;
     border: 1px solid black;
-    /* &:focus {
-      outline: 0;
-      border-color: var(--green);
-    } */
   }
   textarea {
     width: 100%;
@@ -41,17 +37,22 @@ const FormStyles = styled.form`
   }
 
   button {
-    /* align-self: center; */
     display: block;
-    width: auto;
     background: var(--primary);
     color: white;
     border: 0;
     font-size: 2rem;
     font-weight: 600;
     border-radius: 25px;
-    padding: 1rem 2rem;
+    padding: 1rem 5rem;
     margin: 2rem auto;
+    transition: all 0.3s;
+    box-shadow: 0 4px 8px 0 grey;
+  }
+  @media (max-width: 500px) {
+    button {
+      transform: translateY(400%);
+    }
   }
 `;
 
