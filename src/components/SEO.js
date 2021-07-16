@@ -21,6 +21,7 @@ export default function SEO({ title, description, image, instagram }) {
     <Helmet>
       <html lang="en" />
       <title>{site.siteMetadata.title}</title>
+      <link rel="shortcut icon" type="image/jpg" href="/favicon.ico" />
       <meta name="description" content={site.siteMetadata.description} />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
