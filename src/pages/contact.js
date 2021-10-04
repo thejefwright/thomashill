@@ -68,11 +68,11 @@ export default function ContactPage() {
       >
         <input type="hidden" name="form-name" value="contact" />
         <label htmlFor="name">Name: </label>
-        <input type="text" name="name" id="name" />
+        <input type="text" name="name" id="name" required />
         <label htmlFor="email">Email: </label>
-        <input type="email" name="email" id="email" />
+        <input type="email" name="email" id="email" required />
         <label htmlFor="message">How can I help?</label>
-        <textarea name="message" id="message" rows="10"></textarea>
+        <textarea name="message" id="message" rows="10" required></textarea>
         <button type="submit">Send!</button>
       </FormStyles>
     </ContactStyles>

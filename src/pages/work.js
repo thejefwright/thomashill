@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import Image from '../components/Image';
 
 const WorkStyles = styled.div`
   height: 100vh;
@@ -26,6 +27,7 @@ export default function WorkPage() {
     <WorkStyles>
       <h1>Look at all the work I've done! I'm a hard worker!</h1>
       <h2>This will be an image gallery of your work</h2>
+      {/* <Image /> */}
     </WorkStyles>
   );
 }
